@@ -59,24 +59,18 @@ Berikut adalah gambaran rangkaian proyek yang akan dilakukan:
 Berikut adalah struktur *repository* saat ini:
 ```
 ├── data/
-│ ├── train/ # Data training
-│ │ ├── images/ # Citra training
-│ │ │ └── *.jpg # File citra JPG
-│ │ └── annotations.json # File anotasi COCO JSON untuk data training
+│ ├── train/ # Data latih
+│ │ ├── *.jpg # Citra latih
+│ │ └── *.json # File anotasi COCO JSON untuk data latih
 │ ├── test/ # Data testing
-│ │ ├── images/ # Citra testing
-│ │ │ └── *.jpg # File citra JPG
-│ │ └── annotations.json # File anotasi COCO JSON untuk data testing
+│ │ ├── *.jpg # Citra uji
+│ │ └── *.json # File anotasi COCO JSON untuk data uji
 │ ├── valid/ # Data validasi
-│ │ ├── images/ # Citra validasi
-│ │ │ └── *.jpg # File citra JPG
-│ │ └── annotations.json # File anotasi COCO JSON untuk data validasi
-│ └── ...
+│ │ ├── *.jpg # Citra validasi
+│ │ └── *.json # File anotasi COCO JSON untuk data validasi
 ├── docs/ # Untuk menyimpan dokumentasi proyek/app
-│ ├── placeholder
-│ └── ...
+│ └── placeholder
 ├── model/
 │ └── placeholder # File placeholder untuk menyimpan model yang sudah dilatih.
-├── README.md # File ini
-└── ...
+└── README.md # File ini
 ```
