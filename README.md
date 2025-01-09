@@ -57,7 +57,7 @@ Berikut adalah gambaran rangkaian proyek yang akan dilakukan:
 ## Struktur Repositori
 
 Berikut adalah struktur *repository* saat ini:
-
+```
 ├── data/
 │ ├── train/ # Data training
 │ │ ├── images/ # Citra training
@@ -79,3 +79,4 @@ Berikut adalah struktur *repository* saat ini:
 │ └── placeholder # File placeholder untuk menyimpan model yang sudah dilatih.
 ├── README.md # File ini
 └── ...
+```
