@@ -1,8 +1,8 @@
-# Proyek Pengawasan Kedelai Bertenaga AI
+# SigmaSoy
 
 ## Overview
 
-Repositori ini berisi materi dan dokumentasi untuk tahap awal perancangan proyek "Pengawasan Kedelai Bertenaga AI," yang bertujuan untuk mengembangkan sistem cerdas untuk memantau kualitas dan kuantitas biji kedelai. Pada tahap ini, fokus utama adalah pengumpulan dan persiapan data, serta perencanaan arsitektur sistem.
+Repositori ini berisi materi dan dokumentasi untuk tahap awal perancangan proyek "SigmaSoy" yang bertujuan untuk mengembangkan sistem cerdas untuk memantau kualitas dan kuantitas biji kedelai. Pada tahap ini, fokus utama adalah pengumpulan dan persiapan data, serta perencanaan arsitektur sistem.
 
 ## Tujuan Proyek
 
