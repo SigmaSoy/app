@@ -14,25 +14,6 @@ Tujuan utama proyek ini adalah:
 *   Mendukung pengambilan keputusan yang lebih baik di seluruh rantai pasok kedelai.
 *   Berkontribusi pada kemandirian pangan nasional dengan meningkatkan efisiensi pengelolaan sumber daya kedelai lokal.
 
-## Tahap Awal Perancangan (Tahap Proposal)
-
-Pada tahap ini, kami telah melakukan:
-
-1.  **Identifikasi Masalah:**
-    *   Menganalisis permasalahan ketergantungan impor kedelai di Indonesia dan inefisiensi dalam rantai pasok domestik.
-    *   Menyoroti pentingnya sistem pengawasan kualitas dan kuantitas biji kedelai yang akurat dan efisien.
-2.  **Perumusan Tujuan:**
-    *   Menetapkan tujuan yang jelas dan terukur untuk pengembangan sistem.
-    *   Mengidentifikasi manfaat sistem bagi berbagai pemangku kepentingan (petani, pedagang, industri, pemerintah).
-3.  **Perancangan Solusi:**
-    *   Merancang arsitektur sistem yang menggabungkan teknologi AI (*object detection* dan VQA), platform BLIV, dan Google Vertex AI.
-    *   Menentukan metode dan algoritma yang akan digunakan untuk pelatihan model.
-    *   Memilih model *pretrained* untuk *object detection* (EfficientDet/YOLOv5/8/11) dan VQA (PaLI-Gemma/Florence).
-4.  **Pengumpulan Data Awal:**
-    *   Mengamankan dataset citra biji kedelai dalam format COCO JSON dari Roboflow.
-    *   Memisahkan data menjadi *training*, *validation*, dan *test set*.
-    *   Menyiapkan format data yang akan digunakan.
-
 ## Gambaran Rangkaian Proyek
 
 Berikut adalah gambaran rangkaian proyek yang akan dilakukan:
